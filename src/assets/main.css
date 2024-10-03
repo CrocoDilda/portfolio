@@ -1,0 +1,44 @@
+@import "../assets/fonts/fonts.css";
+@import "./style_zero.css";
+
+:root {
+  --color-main-bg: #f6f9fc;
+  --color-main-black: #181818;
+  --color-main-white: #eaeaea;
+  --color-main-green: #00bd7e;
+  --color-red: #bd1600;
+  --color-blue: #647eff;
+
+  --color-text: #5a5d7a;
+  --color-title: #747fe0;
+  --color-text-hover: #7795f8;
+  --color-link: #35feff;
+  --color-terminal-bg: #5a5d7a;
+
+  --container: 1400px;
+
+  --animation-hero-duration: 2s;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--color-main-bg);
+}
+
+.container {
+  width: 100vw;
+  padding: 0 calc((100vw - var(--container)) / 2);
+}
+
+.big-text {
+  /* font-family: Camphor, Open Sans, Segoe UI, sans-serif; */
+  font-family: "Noto_Sans_Mono";
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 40px;
+  color: #525f7f;
+  margin: 80px 0;
+}
