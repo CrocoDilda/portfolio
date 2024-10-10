@@ -54,6 +54,7 @@
   margin-left: 5px;
   background-color: var(--color-title);
   opacity: 0;
+  border-radius: 0;
   animation-name: cursor;
   animation-iteration-count: infinite;
   animation-duration: 1.4s;
@@ -64,6 +65,10 @@
 .hero--link {
   color: var(--color-title);
   font-weight: 700;
+  transition: color 0.2s;
+  &:hover {
+    color: var(--color-text-hover);
+  }
 }
 
 @keyframes title {

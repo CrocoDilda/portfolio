@@ -11,11 +11,16 @@
 
   --color-text: #5a5d7a;
   --color-title: #747fe0;
-  --color-text-hover: #7795f8;
+  --color-text-hover: #9bb1fc;
   --color-link: #35feff;
   --color-terminal-bg: #5a5d7a;
+  --color-terminal-header-bg: #e4e3e5;
+  --color-terminal-title: #f7f7f7;
+  --color-terminal-text: #e7d184;
+  --color-terminal-link: #35feff;
+  --color-terminal-link-hover: #009e9e;
 
-  --container: 1400px;
+  --container: 1200px;
 
   --animation-hero-duration: 2s;
 }
@@ -26,6 +31,7 @@ html {
 
 body {
   background-color: var(--color-main-bg);
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
 }
 
 .container {
@@ -33,12 +39,35 @@ body {
   padding: 0 calc((100vw - var(--container)) / 2);
 }
 
+* {
+  &:focus-visible {
+    outline-offset: 2px;
+    border-radius: 3px;
+    outline: 2px solid var(--color-text-hover) !important;
+  }
+}
+
 .big-text {
-  /* font-family: Camphor, Open Sans, Segoe UI, sans-serif; */
   font-family: "Noto_Sans_Mono";
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 40px;
-  color: #525f7f;
+  color: var(--color-text);
   margin: 80px 0;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 40px;
+  color: var(--color-text);
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: var(--color-title);
+    margin-top: 20px;
+  }
 }

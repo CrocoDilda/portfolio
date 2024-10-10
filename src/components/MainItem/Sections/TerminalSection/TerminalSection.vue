@@ -7,36 +7,45 @@
     </div>
     <ul class="terminal--list">
       <li class="terminal--item">
-        <h4 class="terminal--tile"></h4>
+        <h4 class="terminal--tile">roman@portfolio:~$ show characteristics</h4>
         <p class="terminal--text"></p>
       </li>
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.currentLocation</h4>
-        <p class="terminal--text">Россия, Краснодар</p>
+        <p class="terminal--text">"Россия, Краснодар"</p>
       </li>
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.contactInfo</h4>
         <p class="terminal--text">
-          ["
-          <a href="mailto:simanckovroman@gmail.com" class="terminal--link"
+          ["<a href="mailto:simanckovroman@gmail.com" class="terminal--link"
             >simanckovroman@gmail.com</a
-          >
-          ", "
-          <a href="https://t.me/Cr0coDilda" class="terminal--link">Telegram</a
+          >", "<a href="https://t.me/Cr0coDilda" class="terminal--link"
+            >Telegram</a
           >", "
           <a href="https://github.com/CrocoDilda" class="terminal--link"
-            >github</a
+            >GitHub</a
+          >", "<a
+            href="https://hh.ru/resume/8a06b15eff0b75794d0039ed1f494d4c4b3977"
+            class="terminal--link"
+            >hh.ru</a
           >"]
         </p>
       </li>
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.resume</h4>
-        <p class="terminal--text"></p>
+        <p class="terminal--text">
+          "<a
+            href="../../../../assets/Резюме_Frontend_разработчик_Роман_Симанков_от_04_10_2024_12_11.pdf"
+            class="terminal--link"
+            download
+            >RomanSimanckov.pdf</a
+          >"
+        </p>
       </li>
-      <li class="terminal--item">
+      <!-- <li class="terminal--item">
         <h4 class="terminal--tile">Roman.interests</h4>
         <p class="terminal--text"></p>
-      </li>
+      </li> -->
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.education</h4>
         <p class="terminal--text">
@@ -47,13 +56,17 @@
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.skills</h4>
         <p class="terminal--text">
-          ["JavaScript", "Vue", "React", "TypeScript", "HTML", "CSS", "SCSS",
+          ["HTML", "CSS", "JavaScript", "Vue", "React", "TypeScript", "SCSS",
           "Git", "Адаптивная вёрстка"]
         </p>
       </li>
       <li class="terminal--item">
-        <h4 class="terminal--tile"></h4>
+        <h4 class="terminal--tile"><div class="terminal--cursor"></div></h4>
       </li>
     </ul>
   </section>
 </template>
+
+<style scoped>
+@import "./terminal-section.css";
+</style>

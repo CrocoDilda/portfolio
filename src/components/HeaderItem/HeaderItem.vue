@@ -29,7 +29,7 @@
 
 .header--link {
   position: relative;
-  transition: 0.1s;
+  transition: color 0.1s;
 
   &::after {
     content: "";
@@ -39,7 +39,7 @@
     background-color: var(--color-text-hover);
     bottom: -8px;
     left: 0;
-    transition: 0.2s;
+    transition: width 0.2s;
   }
 
   &:hover {
