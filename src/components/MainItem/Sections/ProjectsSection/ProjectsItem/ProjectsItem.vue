@@ -6,6 +6,7 @@ type Obj = {
   title: string
   description: string
   image: string
+  imageMobile: string
   liveDemoLink: string
   githubLink: string
   technologiesUsed: string[]
@@ -19,13 +20,23 @@ const imagePath = new URL(
   `../../../../../assets/images/${props.project.image}`,
   import.meta.url
 ).href
+
+const imagePathMobile = new URL(
+  `../../../../../assets/images/${props.project.imageMobile}`,
+  import.meta.url
+).href
 </script>
 
 <template>
   <li class="project">
-    <div class="project--image-wrapper">
+    <!-- <div class="project--image-wrapper">
       <img class="project--image" :src="`${imagePath}`" alt="" />
-    </div>
+    </div> -->
+
+    <picture>
+      <source :srcset="`${imagePathMobile}`" media="(max-width: 1000px)" />
+      <img class="project--image" :src="`${imagePath}`" alt="" />
+    </picture>
 
     <div class="project--wrapper">
       <div class="project--triangles-wrapper">
