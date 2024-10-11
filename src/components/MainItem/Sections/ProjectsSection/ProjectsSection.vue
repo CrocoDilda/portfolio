@@ -4,7 +4,7 @@ import { projects } from "@/assets/projects-section"
 </script>
 
 <template>
-  <div class="projects">
+  <section id="projects" class="projects">
     <h2 class="projects--title">Мои проекты</h2>
 
     <ul class="projects--list">
@@ -14,7 +14,7 @@ import { projects } from "@/assets/projects-section"
         :project="project"
       />
     </ul>
-  </div>
+  </section>
 </template>
 
 <style scoped>
@@ -22,7 +22,10 @@ import { projects } from "@/assets/projects-section"
   display: grid;
   justify-items: center;
   gap: 80px;
-  padding-bottom: 100px;
+  margin-top: 50px;
+  &:target {
+    padding-top: 50px; /* Замените на нужный вам отступ */
+  }
 }
 
 .projects--list {

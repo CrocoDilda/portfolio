@@ -31,6 +31,24 @@ const projects = [
     technologiesUsed: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React"],
     id: 3,
   },
+  {
+    title: "Delayed Viewing",
+    description: `Этот проект — веб-приложение для хранения фильмов, которые пользователь планирует посмотреть позже. Приложение разработано на Vue и включает в себя функционал для добавления заметок к каждому фильму. Используется API для автоматического заполнения карточек фильмов, что упрощает ввод данных. Приложение также поддерживает регистрацию и авторизацию пользователей, обеспечивая персонализированный доступ к списку фильмов и сохранённым на удалённом сервере заметкам.`,
+    image: "delayed-viewing.png",
+    liveDemoLink: "https://2532nm-5173.csb.app/welcome",
+    githubLink: "https://github.com/CrocoDilda/delayed-viewing",
+    technologiesUsed: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "Vue",
+      "Vue Router",
+      "Pinia",
+      "API",
+    ],
+    id: 4,
+  },
 ]
 
 export { projects }

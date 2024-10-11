@@ -48,6 +48,10 @@
   animation-fill-mode: forwards;
 }
 
+.big-text {
+  margin: 80px 0;
+}
+
 .cursor {
   height: 72px;
   width: 45px;

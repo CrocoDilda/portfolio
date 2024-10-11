@@ -17,14 +17,24 @@
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.contactInfo</h4>
         <p class="terminal--text">
-          ["<a href="mailto:simanckovroman@gmail.com" class="terminal--link"
+          ["<a
+            target="_blank"
+            href="mailto:simanckovroman@gmail.com"
+            class="terminal--link"
             >simanckovroman@gmail.com</a
-          >", "<a href="https://t.me/Cr0coDilda" class="terminal--link"
+          >", "<a
+            target="_blank"
+            href="https://t.me/Cr0coDilda"
+            class="terminal--link"
             >Telegram</a
           >", "
-          <a href="https://github.com/CrocoDilda" class="terminal--link"
+          <a
+            target="_blank"
+            href="https://github.com/CrocoDilda"
+            class="terminal--link"
             >GitHub</a
           >", "<a
+            target="_blank"
             href="https://hh.ru/resume/8a06b15eff0b75794d0039ed1f494d4c4b3977"
             class="terminal--link"
             >hh.ru</a
@@ -35,6 +45,7 @@
         <h4 class="terminal--tile">Roman.resume</h4>
         <p class="terminal--text">
           "<a
+            target="_blank"
             href="../../../../assets/Резюме_Frontend_разработчик_Роман_Симанков_от_04_10_2024_12_11.pdf"
             class="terminal--link"
             download
@@ -42,10 +53,6 @@
           >"
         </p>
       </li>
-      <!-- <li class="terminal--item">
-        <h4 class="terminal--tile">Roman.interests</h4>
-        <p class="terminal--text"></p>
-      </li> -->
       <li class="terminal--item">
         <h4 class="terminal--tile">Roman.education</h4>
         <p class="terminal--text">
