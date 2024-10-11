@@ -7,19 +7,19 @@
           >simanckovroman@gmail.com</a
         >
       </li>
-      <li class="contacts--item">||</li>
+      <li class="contacts--item lines">||</li>
       <li class="contacts--item">
         <a href="https://t.me/Cr0coDilda" class="big-text big--link"
           >Telegram</a
         >
       </li>
-      <li class="contacts--item">||</li>
+      <li class="contacts--item lines">||</li>
       <li class="contacts--item">
         <a href="https://github.com/CrocoDilda" class="big-text big--link"
           >GitHub</a
         >
       </li>
-      <li class="contacts--item">||</li>
+      <li class="contacts--item lines">||</li>
       <li class="contacts--item">
         <a
           href="https://hh.ru/resume/8a06b15eff0b75794d0039ed1f494d4c4b3977"
@@ -51,5 +51,17 @@
   font-size: 1.3rem;
   line-height: 40px;
   color: var(--color-text);
+}
+
+@media (max-width: 700px) {
+  .lines {
+    display: none;
+  }
+
+  .contacts--list {
+    grid-auto-flow: row;
+    justify-items: center;
+    margin-bottom: 80px;
+  }
 }
 </style>
