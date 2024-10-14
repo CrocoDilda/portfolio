@@ -46,7 +46,7 @@
         <p class="terminal--text">
           "<a
             target="_blank"
-            href="../../../../assets/Резюме_Frontend_разработчик_Роман_Симанков_от_04_10_2024_12_11.pdf"
+            href="../../../../../public/Резюме_Frontend_разработчик_Роман_Симанков_от_04_10_2024_12_11.pdf"
             class="terminal--link"
             download
             >RomanSimanckov.pdf</a
