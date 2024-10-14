@@ -12,4 +12,7 @@ export default defineConfig({
     },
   },
   base: "./",
+  build: {
+    outDir: "docs", // Измените на docs, чтобы соответствовало требованиям GitHub Pages
+  },
 })
