@@ -1,14 +1,14 @@
 const projects = [
-  {
-    title: "Crypro API",
-    description: "Описание проекта 1",
-    image: "",
-    imageMobile: "",
-    liveDemoLink: "",
-    githubLink: "https://github.com/CrocoDilda/crypto-API",
-    technologiesUsed: ["Технология 1", "Технология 2"],
-    id: 1,
-  },
+  //   {
+  //     title: "Crypro API",
+  //     description: "Описание проекта 1",
+  //     image: "",
+  //     imageMobile: "",
+  //     liveDemoLink: "",
+  //     githubLink: "https://github.com/CrocoDilda/crypto-API",
+  //     technologiesUsed: ["Технология 1", "Технология 2"],
+  //     id: 1,
+  //   },
   {
     title: "Jackbox game",
     description:
