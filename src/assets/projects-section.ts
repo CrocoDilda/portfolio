@@ -3,7 +3,7 @@ const projects = [
   //     title: "Crypro API",
   //     description: "Описание проекта 1",
   //     image: "",
-  //     imageMobile: "",
+  //     imageMobile: "none",
   //     liveDemoLink: "",
   //     githubLink: "https://github.com/CrocoDilda/crypto-API",
   //     technologiesUsed: ["Технология 1", "Технология 2"],
