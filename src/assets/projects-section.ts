@@ -26,10 +26,10 @@ const projects = [
 	<br/>
 	<br/>
 
-	 Проект оптимизирован для комфортной игры как на мобильных устройствах, так и на десктопах. Также реализована логика сохранения рекорда игры, что позволяет игрокам снова и снова совершенствовать свой результат`,
+	 Проект оптимизирован для комфортной игры как на мобильных устройствах, так и на десктопах. Также реализована логика сохранения рекорда игры, что позволяет игрокам снова и снова совершенствовать свой результат.`,
     image: "memory-game.webp",
     imageMobile: "memory-game-mobile.webp",
-    liveDemoLink: "https://y6pdgv-5173.csb.app/react-memory/",
+    liveDemoLink: "https://crocodilda.github.io/react-memory/",
     githubLink: "https://github.com/CrocoDilda/react-memory",
     technologiesUsed: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React"],
     id: 3,
@@ -39,7 +39,7 @@ const projects = [
     description: `Этот проект — веб-приложение для хранения фильмов, которые пользователь планирует посмотреть позже. Приложение разработано на Vue и включает в себя функционал для добавления заметок к каждому фильму. Используется API для автоматического заполнения карточек фильмов, что упрощает ввод данных. Приложение также поддерживает регистрацию и авторизацию пользователей, обеспечивая персонализированный доступ к списку фильмов и сохранённым на удалённом сервере заметкам.`,
     image: "delayed-viewing.webp",
     imageMobile: "delayed-viewing-mobile.webp",
-    liveDemoLink: "https://2532nm-5173.csb.app/welcome",
+    liveDemoLink: "https://crocodilda.github.io/delayed-viewing/",
     githubLink: "https://github.com/CrocoDilda/delayed-viewing",
     technologiesUsed: [
       "HTML5",
