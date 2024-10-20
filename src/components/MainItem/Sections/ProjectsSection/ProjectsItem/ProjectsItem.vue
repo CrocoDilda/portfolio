@@ -29,10 +29,6 @@ const imagePathMobile = new URL(
 
 <template>
   <li class="project">
-    <!-- <div class="project--image-wrapper">
-      <img class="project--image" :src="`${imagePath}`" alt="" />
-    </div> -->
-
     <picture>
       <source :srcset="`${imagePathMobile}`" media="(max-width: 1000px)" />
       <img class="project--image" :src="`${imagePath}`" alt="" />

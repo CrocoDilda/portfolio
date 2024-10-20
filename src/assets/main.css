@@ -8,6 +8,7 @@
   --color-main-green: #00bd7e;
   --color-red: #bd1600;
   --color-blue: #647eff;
+  --color-blue100: #2e3b79;
 
   --color-text: #5a5d7a;
   --color-title: #747fe0;
@@ -45,6 +46,9 @@ body {
     outline-offset: 2px;
     border-radius: 3px;
     outline: 2px solid var(--color-text-hover) !important;
+  }
+  & a:active {
+    color: var(--color-blue);
   }
 }
 
